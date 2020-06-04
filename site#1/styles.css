@@ -1,0 +1,355 @@
+.header-bg {
+  height: 2%;
+  width:  102%;
+  background-color:  #1f1f1f;
+  margin-top: -1%;
+  margin-left: -1%;
+}
+header{
+  background-color: #e7e8e6;
+  padding: 5px 39px 0px 39px;
+
+
+}
+
+body{
+  background-color: #e24335;
+  margin-top: 1%;
+  margin-bottom: -1%;
+}
+
+.logo b {
+  text-shadow: 1px 1px 0 #ffffff;
+  color: #c42d21;
+  font-family: "Sansus Webissimo";
+  font-size: 32px;
+  vertical-align: 50%;
+  position: relative;
+
+}
+.logo img {
+  /* Style for "gold logo" */
+  width: 47px;
+  height: 56px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.59);
+
+
+}
+.menu{
+
+margin-top: -2%;
+
+}
+.menu a{
+  text-decoration: none;
+  color: #595959;
+  font-size: 14px;
+  width: 206px;
+  height: 14px;
+
+  font-family: "Helvetica Neue";
+  padding: 5px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.menu a:active {
+    color: #c42d21; /* Цвет активной ссылки */
+   }
+
+.main-menu{
+  height: 2em;
+  background-color: #e7e8e6;
+  background-image: linear-gradient(to top, #a21b11 0%, #c24c3b 100%);
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 10px;
+}
+
+.main-menu a{
+
+    text-decoration: none;
+    text-align: center;
+    color: #c42d21; /* Цвет активной ссылки */
+    width: 554px;
+    height: 14px;
+    color: #ececec;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+
+   }
+.home a:active {
+     /* Style for "Layer 10 c" */
+     width: 82px;
+     height: 34px;
+     background-color: #e7e8e6;
+     border-radius: 10px 0px 0px 10px;
+     padding: 8px;
+     background-image: linear-gradient(to top, #1f1f1f 0%, #454545 100%);   }
+
+.main-menu a:active {
+  /* Style for "Layer 10 c" */
+  width: 82px;
+  height: 34px;
+  background-color: #e7e8e6;
+  padding: 8px;
+  background-image: linear-gradient(to top, #1f1f1f 0%, #454545 100%);   }
+.phone-number{
+      text-align: right;
+      border-radius: 0px 10px 10px 0px ;
+      height: 2em;
+      background-image: linear-gradient(to top, #1f1f1f 0%, #454545 100%);}
+.phone-number b{
+  width: 340px;
+  height: 34px;
+  color: #ececec;
+  font-family: "Helvetica LT Std";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2em;
+  padding-left: 25px;
+  padding-right: 25px;
+   }
+   .wrapper{
+     padding: 5px 0px 0px 0px;
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+   }
+
+.container{
+  background-color: #e7e8e6;
+  padding: 0px 39px 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/*slider*/
+.sim-slider img {
+  width: 675px;
+height: 309px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.sim-slider {
+  width: 87,5%;
+  height: 309px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 40px;
+  background-color: #e7e8e6;
+}
+
+/* General styles */
+.sim-slider {
+  position: relative;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sim-slider-element {
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: right;
+margin: 0em -3em 2em;
+
+}
+
+span.sim-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+/*end-sliderJS*/
+.login-form{
+  margin: 0.7em 0em;
+
+  height: 19.5em;
+  background-color: #1f1f1f;
+
+
+  border-radius: 5px 5px 5px 5px;
+}
+.login-form img{
+  width: 30px;
+  height: 30px;
+  margin: 1.5em 0em 0em 1.5em ;
+}
+.login-form b {
+  width: 137px;
+height: 14px;
+color: #ececec;
+font-family: "Helvetica Neue LT - Medium Cond";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-transform: uppercase;
+vertical-align: super;}
+
+ #fname{
+   opacity: 0.5;
+   font-family: "Helvetica Neue";
+   background-color: white;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+ }
+ #password{
+   opacity: 0.5;
+   color: #595959;
+   background-color: white;
+   font-family: "Helvetica Neue";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+ }
+ .login-form p {
+   color: #e4e7e7;
+   font-family: "Helvetica Neue";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;}
+
+   .login-form label {
+     color: #e4e7e7;
+ font-family: "Helvetica Neue";
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 22px;
+}
+#buttons{
+  width:30%;
+height: 2em;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.26);
+color: #ececec;
+font-family: "Helvetica LT Std";
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+background-color: #c42d21;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#button-account{
+  width:40%;
+  height: 2em;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.26);
+  color: #ececec;
+  font-family: "Helvetica LT Std";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  background-color: #c42d21;
+    border-radius: 5px 5px 5px 5px;
+}
+.sub-container{
+  background-color: #e7e8e6;
+  padding: 0px 0px 0px 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.sub-container b{
+
+font-family: "Helvetica Neue CE";
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+color: #e24335;
+}
+.how-it-works{
+  padding: 0 40px 40px 0;
+}
+.sign {
+ border-radius: 5px 5px 5px 5px;
+ border: 1px solid #333; /* Параметры рамки */
+ padding: 20px  0px ; /* Поля внутри блока */
+ margin: 0px 0px ; /* Отступы вокруг */
+ background: #f0f0f0; /* Цвет фона */
+}
+
+.sign figcaption {
+  text-align: center;
+ color: #737070;
+font-family: "Helvetica Neue";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+
+ul.hr {
+
+}
+ul.hr li {
+display:inline-block; /* Отображать как строчный элемент */
+
+}
+
+.right {
+      transform: rotate(45deg);
+      width: 70px;
+        height: 70px;
+        border-top: 4px solid #737070;
+        border-right: 4px solid #737070;
+        margin-right: 60px;
+}
+footer{
+  height: 6em;
+  width:  102%;
+  background-color:  #1f1f1f;
+  margin-top: -1.5%;
+  margin-left: -1%;
+}
+.leftstr, .rightstr {
+ float: left; /* Обтекание справа */
+ width: 98%; /* Ширина текстового блока */
+
+}
+.rightstr {
+  text-align: right; /* Выравнивание по правому краю */
+  margin-top: -4%;
+  color: #ececec;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+.leftstr{
+  color: #ebe8e8;
+  font-family: "Bebas Neue";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+
+  padding: 4px 7px;
+}
